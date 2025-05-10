@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Form Elements</title>
+</head>
+<body>
+    <h1>Форма для регистрации</h1>
+   <form action="/submit" method="post">
+    <fieldset>
+        <legend>Личная информация</legend>
+       <label for="name">Имя:</label>
+       <input type="text" id="name" name="name" required>
+       <label for="password">Парoль:</label>
+       <input type="text" id="password" password="password" required>
+       <label for="comments">Комментарии</label>
+       <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+    </fieldset>
+    <fieldset>
+        <legend>Местоположение</legend>
+        <label for="country">Страны</label>
+        <select id="country" name="country" required>
+            <option value="">Выберите страну</option>
+            <option value="kz">Казахстан</option>
+            <option value="ca">Канада</option>
+            <option value="us">Соединенные Штаты Америки</option>
+            <option value="au">Австралия</option>
+        </select>
+    </fieldset>
+    <button type="submit">Отправить</button>
+    <button typt="reset">Сбросить</button>
+   </form>
+
+</body>
+</html>
