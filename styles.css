@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8b95f0;
+ }
+ .title {
+    text-align: center;
+    color:black
+ }
+ #songName {
+    text-align: center;
+    color: black
+ }
+ p {
+    text-align: center;
+    color: black;
+ }
+ h5 {
+    text-align: end;
+    color:black
+ }
+ h6 {
+    color: green;
+}
+.highlight {
+    color: blue;
+}
+#text {
+    color: red;
+    text-align: center;
+}
+ 
