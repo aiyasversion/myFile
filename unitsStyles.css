@@ -1,0 +1,52 @@
+body {
+    background-image: url('allTooWell.jpg');
+    height: 1571px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    margin-left: 1000px;
+}
+h1{
+    font-size: 70px;
+    color: rgb(144, 79, 14);
+    white-space: nowrap;
+}
+/* Заголовок h2 с rem (относительно html font-size) */
+html {
+    font-size: 16px; /* Базовый размер шрифта для rem */
+}
+h2{
+    font-size: 2rem; /* 2 * 16px = 32px */
+    color:black;
+    white-space: nowrap;
+}
+box {
+    width: 600px; /* фиксированная ширина в px */
+    font-size: 1em; /* 1em = размер шрифта родителя (body) */
+}
+
+.box p {
+    font-size: 1.2em; /* увеличиваем размер относительно контейнера */
+    color: black;
+}
+
+.box h5 {
+    font-size: 1.5em;
+    color: rgb(154, 3, 3);
+}
+
+/* Второй контейнер с шириной в процентах */
+.box1 {
+    width: 90%; /* ширина 90% от родителя (body) */
+    font-size: 1rem;
+}
+
+.box1 p {
+    font-size: 1.1rem;
+    color: black;
+}
+
+.box1 h5 {
+    font-size: 1.4rem;
+    color: rgb(154, 3, 3);
+}
