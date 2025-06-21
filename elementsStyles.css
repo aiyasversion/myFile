@@ -1,0 +1,32 @@
+/* преобразование линейного в блочное*/
+img {
+    dicplay: block;
+    margin: 5px;
+    width: 200px;
+}
+/*преобразование блочного в линейное*/
+p.inline {
+    display: inline;
+    background-color: lightgray;
+    padding: 3px;
+    border: 0.5px solid black;
+}
+/*элементы внутри контейнера*/
+.container {
+    background-color: aliceblue;
+    padding: 2px;
+    margin-top: 5px;
+    display: block;
+}
+/*преобразование всех эдементов в контейнере в блочные*/
+.container p,
+.container img,
+.container a {
+    display: block;
+    margin-bottom: 3px;
+}
+body {
+    background-image: url('cc.jpg');
+    background-repeat: no-repeat;
+    text-align: right;
+}
